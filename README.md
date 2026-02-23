@@ -12,10 +12,10 @@ El repositorio se organiza de la siguiente manera:
 - **`librariaAleEagle/`**: Colección de bibliotecas y componentes para **Autodesk EAGLE**. Incluye huellas (footprints), esquemáticos y símbolos diseñados y recopilados a lo largo de distintos desarrollos para la agilización en el diseño de nuevas placas PCBs.
 - **`librariesAleArduino/`**: Conjunto comprensivo de librerías para el entorno de desarrollo de **Arduino**. Incluye controladores de sensores, actuadores, y utilidades clave requeridas para el funcionamiento del firmware de las estaciones y nodos. 
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores y Recopilación
 
-- **Alejandro Rebolledo**
-- Correo: arebolledo@udd.cl / edo@udd.cl
+- **Autores:** Investigadores y desarrolladores del Centro C+ UDD.
+- **Recopilador:** Alejandro Rebolledo (arebolledo@udd.cl / edo@udd.cl)
 
 ## 📄 Licencia
 
