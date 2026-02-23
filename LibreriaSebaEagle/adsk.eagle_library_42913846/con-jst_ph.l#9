@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="JST_B5B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:footprint:45202331/1">
+<wire x1="-6.975" y1="2.5" x2="6.975" y2="2.5" width="0.127" layer="51"/>
+<wire x1="6.975" y1="2.5" x2="6.975" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="6.975" y1="-2.5" x2="-6.975" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-6.975" y1="-2.5" x2="-6.975" y2="2.5" width="0.127" layer="51"/>
+<wire x1="6.975" y1="2.5" x2="6.975" y2="1.82" width="0.127" layer="21"/>
+<wire x1="6.975" y1="-2.5" x2="6.975" y2="-1.82" width="0.127" layer="21"/>
+<wire x1="-4.82" y1="-2.5" x2="-6.975" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="6.975" y1="-2.5" x2="4.82" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-6.975" y1="1.82" x2="-6.975" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-6.975" y1="-2.5" x2="-6.975" y2="-1.82" width="0.127" layer="21"/>
+<wire x1="-6.975" y1="2.5" x2="6.975" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-7.45" y1="2.75" x2="-7.45" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="-7.45" y1="-5.25" x2="7.45" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="7.45" y1="-5.25" x2="7.45" y2="2.75" width="0.05" layer="39"/>
+<wire x1="7.45" y1="2.75" x2="-7.45" y2="2.75" width="0.05" layer="39"/>
+<circle x="-4" y="-5.65" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4" y="-5.65" radius="0.1" width="0.2" layer="51"/>
+<text x="-7.45" y="3.75" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.45" y="-6.25" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="1" x="-4" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="2" x="-2" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="3" x="0" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="4" x="2" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="SH1" x="-6.4" y="0" dx="1.6" dy="3" layer="1"/>
+<smd name="SH2" x="6.4" y="0" dx="1.6" dy="3" layer="1"/>
+<smd name="5" x="4" y="-2.25" dx="1" dy="5.5" layer="1"/>
+</package>
+<package name="JST_S3B-PH-SM4-TB" urn="urn:adsk.eagle:footprint:42788766/1">
+<wire x1="-4.95" y1="-0.35" x2="4.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="4.95" y1="-0.35" x2="4.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="4.95" y1="7.25" x2="-4.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="-4.95" y1="7.25" x2="-4.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-5.5" y1="8" x2="5.5" y2="8" width="0.127" layer="39"/>
+<wire x1="5.5" y1="8" x2="5.5" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="5.5" y1="-0.75" x2="3.25" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="3.25" y1="-0.75" x2="3.25" y2="-2.25" width="0.127" layer="39"/>
+<wire x1="3.25" y1="-2.25" x2="-3.25" y2="-2.25" width="0.127" layer="39"/>
+<wire x1="-3.25" y1="-2.25" x2="-3.25" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="-3.25" y1="-0.75" x2="-5.5" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="-5.5" y1="-0.75" x2="-5.5" y2="8" width="0.127" layer="39"/>
+<circle x="2.9" y="-1.6" radius="0.127" width="0" layer="21"/>
+<text x="-5.50185" y="8.25278125" size="1.27043125" layer="25">&gt;NAME</text>
+<text x="-5.505009375" y="-3.75341875" size="1.271159375" layer="27">&gt;VALUE</text>
+<smd name="2" x="0" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="1" x="2" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="3" x="-2" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="P2" x="-4.35" y="5.75" dx="1.5" dy="3.4" layer="1"/>
+<smd name="P1" x="4.35" y="5.75" dx="1.5" dy="3.4" layer="1"/>
+</package>
+<package name="JST_B2B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:footprint:42423127/1">
+<wire x1="-2.95" y1="-2.25" x2="-2.95" y2="2.25" width="0.127" layer="51"/>
+<wire x1="-2.95" y1="2.25" x2="2.95" y2="2.25" width="0.127" layer="51"/>
+<wire x1="2.95" y1="2.25" x2="2.95" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="2.95" y1="-2.25" x2="-2.95" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-2.95" y1="2.25" x2="2.95" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.95" y1="2.25" x2="2.95" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="2.95" y1="-2.25" x2="-2.95" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-2.95" y1="-2.25" x2="-2.95" y2="2.25" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="-2.5" x2="-3.2" y2="2.5" width="0.05" layer="39"/>
+<wire x1="-3.2" y1="2.5" x2="3.2" y2="2.5" width="0.05" layer="39"/>
+<wire x1="3.2" y1="2.5" x2="3.2" y2="-2.5" width="0.05" layer="39"/>
+<wire x1="3.2" y1="-2.5" x2="-3.2" y2="-2.5" width="0.05" layer="39"/>
+<text x="-3.20481875" y="2.60391875" size="1.01753125" layer="25">&gt;NAME</text>
+<text x="-3.30138125" y="-3.601509375" size="1.01643125" layer="27">&gt;VALUE</text>
+<circle x="3.6" y="-0.5" radius="0.1" width="0.2" layer="21"/>
+<circle x="3.6" y="-0.5" radius="0.1" width="0.2" layer="51"/>
+<pad name="1" x="1" y="-0.55" drill="0.86" shape="square" rot="R180"/>
+<pad name="2" x="-1" y="-0.55" drill="0.86" rot="R180"/>
+</package>
+<package name="JST_B6B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:footprint:45400774/1">
+<wire x1="-6.95" y1="2.25" x2="6.95" y2="2.25" width="0.127" layer="51"/>
+<wire x1="6.95" y1="2.25" x2="6.95" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="6.95" y1="-2.25" x2="-6.95" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-6.95" y1="-2.25" x2="-6.95" y2="2.25" width="0.127" layer="51"/>
+<wire x1="-6.95" y1="2.25" x2="6.95" y2="2.25" width="0.127" layer="21"/>
+<wire x1="-6.95" y1="-2.25" x2="-6.95" y2="2.25" width="0.127" layer="21"/>
+<wire x1="6.95" y1="2.25" x2="6.95" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="6.95" y1="-2.25" x2="-6.95" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-7.2" y1="2.5" x2="7.2" y2="2.5" width="0.05" layer="39"/>
+<wire x1="7.2" y1="2.5" x2="7.2" y2="-2.5" width="0.05" layer="39"/>
+<wire x1="7.2" y1="-2.5" x2="-7.2" y2="-2.5" width="0.05" layer="39"/>
+<wire x1="-7.2" y1="-2.5" x2="-7.2" y2="2.5" width="0.05" layer="39"/>
+<circle x="5" y="-2.95" radius="0.1" width="0.2" layer="21"/>
+<circle x="5" y="-2.95" radius="0.1" width="0.2" layer="51"/>
+<text x="-7.2" y="2.95" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.2" y="-4.3" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="6" x="-5" y="-0.55" drill="0.8"/>
+<pad name="5" x="-3" y="-0.55" drill="0.8"/>
+<pad name="4" x="-1" y="-0.55" drill="0.8"/>
+<pad name="3" x="1" y="-0.55" drill="0.8"/>
+<pad name="2" x="3" y="-0.55" drill="0.8"/>
+<pad name="1" x="5" y="-0.55" drill="0.8" shape="square"/>
+</package>
+<package name="JST_S4B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:footprint:42400016/3">
+<wire x1="-4.95" y1="1.35" x2="4.95" y2="1.35" width="0.127" layer="51"/>
+<wire x1="4.95" y1="1.35" x2="4.95" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="4.95" y1="-6.25" x2="-4.95" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="-4.95" y1="-6.25" x2="-4.95" y2="1.35" width="0.127" layer="51"/>
+<wire x1="-4.95" y1="1.35" x2="4.95" y2="1.35" width="0.127" layer="21"/>
+<wire x1="-4.95" y1="-6.25" x2="-4.95" y2="1.35" width="0.127" layer="21"/>
+<wire x1="4.95" y1="1.35" x2="4.95" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="4.95" y1="-6.25" x2="-4.95" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="1.6" x2="5.2" y2="1.6" width="0.05" layer="39"/>
+<wire x1="5.2" y1="1.6" x2="5.2" y2="-6.5" width="0.05" layer="39"/>
+<wire x1="5.2" y1="-6.5" x2="-5.2" y2="-6.5" width="0.05" layer="39"/>
+<wire x1="-5.2" y1="-6.5" x2="-5.2" y2="1.6" width="0.05" layer="39"/>
+<circle x="-5.5" y="0.1" radius="0.14141875" width="0.3" layer="21"/>
+<circle x="-5.5" y="0.1" radius="0.14141875" width="0.3" layer="51"/>
+<text x="-5.08246875" y="2.16005" size="1.27061875" layer="25">&gt;NAME</text>
+<text x="-5.08165" y="-8.130640625" size="1.270409375" layer="27">&gt;VALUE</text>
+<pad name="1" x="-3" y="0" drill="0.8128" shape="square"/>
+<pad name="2" x="-1" y="0" drill="0.8128"/>
+<pad name="3" x="1" y="0" drill="0.8128"/>
+<pad name="4" x="3" y="0" drill="0.8128"/>
+</package>
+<package name="JST_S2B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:footprint:42400053/3">
+<wire x1="-2.95" y1="-6.25" x2="-2.95" y2="1.35" width="0.127" layer="51"/>
+<wire x1="-2.95" y1="1.35" x2="2.95" y2="1.35" width="0.127" layer="51"/>
+<wire x1="2.95" y1="1.35" x2="2.95" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="2.95" y1="-6.25" x2="-2.95" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="-2.95" y1="1.35" x2="2.95" y2="1.35" width="0.127" layer="21"/>
+<wire x1="2.95" y1="1.35" x2="2.95" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="-2.95" y1="-6.25" x2="-2.95" y2="1.35" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="-6.5" x2="-3.2" y2="1.6" width="0.05" layer="39"/>
+<wire x1="-3.2" y1="1.6" x2="3.2" y2="1.6" width="0.05" layer="39"/>
+<wire x1="3.2" y1="1.6" x2="3.2" y2="-6.5" width="0.05" layer="39"/>
+<wire x1="3.2" y1="-6.5" x2="-3.2" y2="-6.5" width="0.05" layer="39"/>
+<wire x1="2.95" y1="-6.25" x2="-2.95" y2="-6.25" width="0.127" layer="21"/>
+<circle x="-1" y="1.9" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1" y="1.9" radius="0.1" width="0.2" layer="51"/>
+<text x="-3.3" y="2.335" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.3" y="-7.2" size="0.6096" layer="27">&gt;VALUE</text>
+<pad name="2" x="1" y="0" drill="0.8128"/>
+<pad name="1" x="-1" y="0" drill="0.8128" shape="square"/>
+</package>
+<package name="JST_B3B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:footprint:44075748/1">
+<wire x1="-3.95" y1="2.25" x2="3.95" y2="2.25" width="0.127" layer="51"/>
+<wire x1="3.95" y1="2.25" x2="3.95" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="3.95" y1="-2.25" x2="-3.95" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="-2.25" x2="-3.95" y2="2.25" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="2.25" x2="3.95" y2="2.25" width="0.127" layer="21"/>
+<wire x1="-3.95" y1="-2.25" x2="-3.95" y2="2.25" width="0.127" layer="21"/>
+<wire x1="3.95" y1="2.25" x2="3.95" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="3.95" y1="-2.25" x2="-3.95" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-4.2" y1="2.5" x2="4.2" y2="2.5" width="0.05" layer="39"/>
+<wire x1="4.2" y1="2.5" x2="4.2" y2="-2.5" width="0.05" layer="39"/>
+<wire x1="4.2" y1="-2.5" x2="-4.2" y2="-2.5" width="0.05" layer="39"/>
+<wire x1="-4.2" y1="-2.5" x2="-4.2" y2="2.5" width="0.05" layer="39"/>
+<circle x="2" y="-2.95" radius="0.1" width="0.2" layer="21"/>
+<circle x="2" y="-2.95" radius="0.1" width="0.2" layer="51"/>
+<text x="-4.2" y="2.95" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.2" y="-4.3" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="1" x="2" y="-0.55" drill="0.8" shape="square"/>
+<pad name="2" x="0" y="-0.55" drill="0.8"/>
+<pad name="3" x="-2" y="-0.55" drill="0.8"/>
+</package>
+<package name="JST_S2B-PH-SM4-TB" urn="urn:adsk.eagle:footprint:42348431/1">
+<wire x1="-3.95" y1="-0.35" x2="3.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="3.95" y1="-0.35" x2="3.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="3.95" y1="7.25" x2="-3.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="7.25" x2="-3.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-4.5" y1="8" x2="4.5" y2="8" width="0.127" layer="39"/>
+<wire x1="4.5" y1="8" x2="4.5" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="4.5" y1="-0.75" x2="2.25" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="2.25" y1="-0.75" x2="2.25" y2="-2.25" width="0.127" layer="39"/>
+<wire x1="2.25" y1="-2.25" x2="-2.25" y2="-2.25" width="0.127" layer="39"/>
+<wire x1="-2.25" y1="-2.25" x2="-2.25" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="-2.25" y1="-0.75" x2="-4.5" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="-4.5" y1="-0.75" x2="-4.5" y2="8" width="0.127" layer="39"/>
+<circle x="1.9" y="-1.6" radius="0.127" width="0" layer="21"/>
+<text x="-4.50621875" y="8.261409375" size="1.271759375" layer="25">&gt;NAME</text>
+<text x="-4.501190625" y="-3.750990625" size="1.270340625" layer="27">&gt;VALUE</text>
+<smd name="2" x="-1" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="1" x="1" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="P2" x="-3.35" y="5.75" dx="1.5" dy="3.4" layer="1"/>
+<smd name="P1" x="3.35" y="5.75" dx="1.5" dy="3.4" layer="1"/>
+</package>
+<package name="JST_B2B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:footprint:45202380/3">
+<wire x1="-4.2" y1="2.95" x2="4.1" y2="2.95" width="0.127" layer="21"/>
+<wire x1="4.1" y1="2.95" x2="4.1" y2="-2" width="0.127" layer="21"/>
+<wire x1="4.1" y1="-2" x2="-4.2" y2="-2" width="0.127" layer="21"/>
+<wire x1="-4.2" y1="-2" x2="-4.2" y2="2.95" width="0.127" layer="21"/>
+<wire x1="-4.2" y1="2.95" x2="4.1" y2="2.95" width="0.127" layer="51"/>
+<wire x1="4.1" y1="2.95" x2="4.1" y2="-2" width="0.127" layer="51"/>
+<wire x1="4.1" y1="-2" x2="-4.2" y2="-2" width="0.127" layer="51"/>
+<wire x1="-4.2" y1="-2" x2="-4.2" y2="2.95" width="0.127" layer="51"/>
+<wire x1="-4.445" y1="3.175" x2="-4.445" y2="-4.699" width="0.0508" layer="39"/>
+<wire x1="-4.445" y1="-4.699" x2="4.318" y2="-4.699" width="0.0508" layer="39"/>
+<wire x1="4.318" y1="-4.699" x2="4.318" y2="3.175" width="0.0508" layer="39"/>
+<wire x1="4.318" y1="3.175" x2="-4.445" y2="3.175" width="0.0508" layer="39"/>
+<text x="-4" y="3.35" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.35" y="-6.2" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.05" y="-1.8" dx="1" dy="5.5" layer="1"/>
+<smd name="2" x="0.95" y="-1.8" dx="1" dy="5.5" layer="1"/>
+<smd name="3" x="-3.45" y="0.45" dx="1.6" dy="3" layer="1"/>
+<smd name="4" x="3.35" y="0.45" dx="1.6" dy="3" layer="1"/>
+</package>
+<package name="JST_B6B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:footprint:45409344/1">
+<wire x1="-7.975" y1="2.5" x2="7.975" y2="2.5" width="0.127" layer="51"/>
+<wire x1="7.975" y1="2.5" x2="7.975" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="7.975" y1="-2.5" x2="-7.975" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-7.975" y1="-2.5" x2="-7.975" y2="2.5" width="0.127" layer="51"/>
+<wire x1="7.975" y1="2.5" x2="7.975" y2="1.82" width="0.127" layer="21"/>
+<wire x1="7.975" y1="-2.5" x2="7.975" y2="-1.82" width="0.127" layer="21"/>
+<wire x1="-5.82" y1="-2.5" x2="-7.975" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="7.975" y1="-2.5" x2="5.82" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-7.975" y1="1.82" x2="-7.975" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-7.975" y1="-2.5" x2="-7.975" y2="-1.82" width="0.127" layer="21"/>
+<wire x1="-7.975" y1="2.5" x2="7.975" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-8.45" y1="2.75" x2="-8.45" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="-8.45" y1="-5.25" x2="8.45" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="8.45" y1="-5.25" x2="8.45" y2="2.75" width="0.05" layer="39"/>
+<wire x1="8.45" y1="2.75" x2="-8.45" y2="2.75" width="0.05" layer="39"/>
+<circle x="-5" y="-5.75" radius="0.1" width="0.2" layer="21"/>
+<circle x="-5" y="-5.75" radius="0.1" width="0.2" layer="51"/>
+<text x="-8" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8" y="-7" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="-5" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="2" x="-3" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="3" x="-1" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="4" x="1" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="SH1" x="-7.4" y="0" dx="1.6" dy="3" layer="1"/>
+<smd name="SH2" x="7.4" y="0" dx="1.6" dy="3" layer="1"/>
+<smd name="5" x="3" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="6" x="5" y="-2.25" dx="1" dy="5.5" layer="1"/>
+</package>
+<package name="JST_B4B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:footprint:43377332/1">
+<wire x1="-4.95" y1="2.25" x2="4.95" y2="2.25" width="0.127" layer="51"/>
+<wire x1="4.95" y1="2.25" x2="4.95" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="4.95" y1="-2.25" x2="-4.95" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-4.95" y1="-2.25" x2="-4.95" y2="2.25" width="0.127" layer="51"/>
+<wire x1="-4.95" y1="2.25" x2="4.95" y2="2.25" width="0.127" layer="21"/>
+<wire x1="-4.95" y1="-2.25" x2="-4.95" y2="2.25" width="0.127" layer="21"/>
+<wire x1="4.95" y1="2.25" x2="4.95" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="4.95" y1="-2.25" x2="-4.95" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="2.5" x2="5.2" y2="2.5" width="0.05" layer="39"/>
+<wire x1="5.2" y1="2.5" x2="5.2" y2="-2.5" width="0.05" layer="39"/>
+<wire x1="5.2" y1="-2.5" x2="-5.2" y2="-2.5" width="0.05" layer="39"/>
+<wire x1="-5.2" y1="-2.5" x2="-5.2" y2="2.5" width="0.05" layer="39"/>
+<circle x="3" y="-2.95" radius="0.1" width="0.2" layer="21"/>
+<circle x="3" y="-2.95" radius="0.1" width="0.2" layer="51"/>
+<text x="-5.2" y="2.95" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.2" y="-4.3" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="1" x="3" y="-0.55" drill="0.8" shape="square"/>
+<pad name="2" x="1" y="-0.55" drill="0.8"/>
+<pad name="3" x="-1" y="-0.55" drill="0.8"/>
+<pad name="4" x="-3" y="-0.55" drill="0.8"/>
+</package>
+<package name="JST_B4B-PH-SM4-TB" urn="urn:adsk.eagle:footprint:45202217/1">
+<wire x1="-5.975" y1="2.5" x2="5.975" y2="2.5" width="0.127" layer="51"/>
+<wire x1="5.975" y1="2.5" x2="5.975" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="5.975" y1="-2.5" x2="-5.975" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-5.975" y1="-2.5" x2="-5.975" y2="2.5" width="0.127" layer="51"/>
+<wire x1="5.975" y1="2.5" x2="5.975" y2="1.82" width="0.127" layer="21"/>
+<wire x1="5.975" y1="-2.5" x2="5.975" y2="-1.82" width="0.127" layer="21"/>
+<wire x1="-3.82" y1="-2.5" x2="-5.975" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="5.975" y1="-2.5" x2="3.82" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-5.975" y1="1.82" x2="-5.975" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-5.975" y1="-2.5" x2="-5.975" y2="-1.82" width="0.127" layer="21"/>
+<wire x1="-5.975" y1="2.5" x2="5.975" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-6.45" y1="2.75" x2="-6.45" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="-6.45" y1="-5.25" x2="6.45" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="6.45" y1="-5.25" x2="6.45" y2="2.75" width="0.05" layer="39"/>
+<wire x1="6.45" y1="2.75" x2="-6.45" y2="2.75" width="0.05" layer="39"/>
+<circle x="-3" y="-5.65" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3" y="-5.65" radius="0.1" width="0.2" layer="51"/>
+<text x="-6.45" y="3.75" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.45" y="-6.25" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="1" x="-3" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="2" x="-1" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="3" x="1" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="4" x="3" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="SH1" x="-5.4" y="0" dx="1.6" dy="3" layer="1"/>
+<smd name="SH2" x="5.4" y="0" dx="1.6" dy="3" layer="1"/>
+</package>
+<package name="JST_S4B-PH-SM4-TB" urn="urn:adsk.eagle:footprint:42788679/2">
+<wire x1="-5.95" y1="-0.35" x2="5.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="5.95" y1="-0.35" x2="5.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="5.95" y1="7.25" x2="-5.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="-5.95" y1="7.25" x2="-5.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-6.5" y1="8" x2="6.5" y2="8" width="0.127" layer="39"/>
+<wire x1="6.5" y1="8" x2="6.5" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="6.5" y1="-0.75" x2="4.25" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="4.25" y1="-0.75" x2="4.25" y2="-2.25" width="0.127" layer="39"/>
+<wire x1="4.25" y1="-2.25" x2="-4.25" y2="-2.25" width="0.127" layer="39"/>
+<wire x1="-4.25" y1="-2.25" x2="-4.25" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="-4.25" y1="-0.75" x2="-6.5" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="-6.5" y1="-0.75" x2="-6.5" y2="8" width="0.127" layer="39"/>
+<circle x="3.9" y="-1.6" radius="0.127" width="0" layer="21"/>
+<text x="-6.501759375" y="8.252240625" size="1.270340625" layer="25">&gt;NAME</text>
+<text x="-6.50275" y="-3.751590625" size="1.270540625" layer="27">&gt;VALUE</text>
+<smd name="3" x="-1" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="4" x="-3" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="2" x="1" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="1" x="3" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="P2" x="-5.35" y="5.75" dx="1.5" dy="3.4" layer="1"/>
+<smd name="P1" x="5.35" y="5.75" dx="1.5" dy="3.4" layer="1"/>
+</package>
+<package name="JST_B3B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:footprint:45202249/1">
+<wire x1="-4.975" y1="2.5" x2="4.975" y2="2.5" width="0.127" layer="51"/>
+<wire x1="4.975" y1="2.5" x2="4.975" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="4.975" y1="-2.5" x2="-4.975" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-4.975" y1="-2.5" x2="-4.975" y2="2.5" width="0.127" layer="51"/>
+<wire x1="5.45" y1="2.75" x2="5.45" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="5.45" y1="-5.25" x2="-5.45" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="-5.45" y1="-5.25" x2="-5.45" y2="2.75" width="0.05" layer="39"/>
+<wire x1="-5.45" y1="2.75" x2="5.45" y2="2.75" width="0.05" layer="39"/>
+<wire x1="-4.975" y1="2.5" x2="4.975" y2="2.5" width="0.127" layer="21"/>
+<wire x1="4.975" y1="2.5" x2="4.975" y2="1.82" width="0.127" layer="21"/>
+<wire x1="-4.975" y1="2.5" x2="-4.975" y2="1.82" width="0.127" layer="21"/>
+<wire x1="-4.975" y1="-1.82" x2="-4.975" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-4.975" y1="-2.5" x2="-2.82" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.82" y1="-2.5" x2="4.975" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="4.975" y1="-2.5" x2="4.975" y2="-1.82" width="0.127" layer="21"/>
+<text x="-5.5" y="3.25" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.5" y="-6.75" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-3.3" y="-4.25" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3.3" y="-4.25" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-2" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="2" x="0" y="-2.25" dx="1" dy="5.5" layer="1"/>
+<smd name="S1" x="-4.4" y="0" dx="1.6" dy="3" layer="1"/>
+<smd name="S2" x="4.4" y="0" dx="1.6" dy="3" layer="1"/>
+<smd name="3" x="2" y="-2.25" dx="1" dy="5.5" layer="1"/>
+</package>
+<package name="JST_S3B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:footprint:42913825/2">
+<wire x1="5.95" y1="1.35" x2="-1.95" y2="1.35" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="1.35" x2="-1.95" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="-6.25" x2="5.95" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="5.95" y1="-6.25" x2="5.95" y2="1.35" width="0.127" layer="51"/>
+<wire x1="6.2" y1="-6.5" x2="-2.2" y2="-6.5" width="0.05" layer="39"/>
+<wire x1="-2.2" y1="-6.5" x2="-2.2" y2="1.6" width="0.05" layer="39"/>
+<wire x1="-2.2" y1="1.6" x2="6.2" y2="1.6" width="0.05" layer="39"/>
+<wire x1="6.2" y1="1.6" x2="6.2" y2="-6.5" width="0.05" layer="39"/>
+<wire x1="5.95" y1="1.35" x2="-1.95" y2="1.35" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="1.35" x2="-1.95" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="-6.25" x2="5.95" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="5.95" y1="-6.25" x2="5.95" y2="1.35" width="0.127" layer="21"/>
+<circle x="-0.6" y="1.9" radius="0.1" width="0.2" layer="21"/>
+<circle x="-0.6" y="1.9" radius="0.1" width="0.2" layer="51"/>
+<text x="-1.70185" y="2.55378125" size="1.27043125" layer="25">&gt;NAME</text>
+<text x="-1.905009375" y="-7.83341875" size="1.271159375" layer="27">&gt;VALUE</text>
+<pad name="1" x="0" y="0" drill="0.8128" shape="square" rot="R180"/>
+<pad name="2" x="2" y="0" drill="0.8128" rot="R180"/>
+<pad name="3" x="4" y="0" drill="0.8128" rot="R180"/>
+</package>
+<package name="JST_S6B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:footprint:48309376/1">
+<text x="-3.56125" y="2.50293125" size="1.27303125" layer="25">&gt;NAME</text>
+<text x="-2.67831875" y="-9.1511" size="1.2745" layer="27">&gt;VALUE</text>
+<wire x1="12.95" y1="-7.25" x2="-2.95" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="-2.95" y1="-7.25" x2="-2.95" y2="0.35" width="0.127" layer="51"/>
+<wire x1="-2.95" y1="0.35" x2="12.95" y2="0.35" width="0.127" layer="51"/>
+<wire x1="12.95" y1="0.35" x2="12.95" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="-0.82" y1="0.35" x2="-2.95" y2="0.35" width="0.127" layer="21"/>
+<wire x1="-2.95" y1="0.35" x2="-2.95" y2="-3.73" width="0.127" layer="21"/>
+<wire x1="-1.28" y1="-7.25" x2="11.28" y2="-7.25" width="0.127" layer="21"/>
+<wire x1="10.82" y1="0.35" x2="12.95" y2="0.35" width="0.127" layer="21"/>
+<wire x1="12.95" y1="0.35" x2="12.95" y2="-3.73" width="0.127" layer="21"/>
+<wire x1="-3.35" y1="2" x2="13.35" y2="2" width="0.05" layer="39"/>
+<wire x1="13.35" y1="2" x2="13.35" y2="-7.7" width="0.05" layer="39"/>
+<wire x1="13.35" y1="-7.7" x2="-3.35" y2="-7.7" width="0.05" layer="39"/>
+<wire x1="-3.35" y1="-7.7" x2="-3.35" y2="2" width="0.05" layer="39"/>
+<circle x="0" y="2.2" radius="0.05" width="0.3" layer="21"/>
+<circle x="0" y="2.2" radius="0.05" width="0.3" layer="51"/>
+<smd name="2" x="2" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="1" x="0" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="S2" x="12.35" y="-5.75" dx="1.5" dy="3.4" layer="1"/>
+<smd name="S1" x="-2.35" y="-5.75" dx="1.5" dy="3.4" layer="1"/>
+<smd name="3" x="4" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="4" x="6" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="5" x="8" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="6" x="10" y="0" dx="1" dy="3.5" layer="1"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="JST_B2B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:package:42423129/2" type="model">
+<packageinstances>
+<packageinstance name="JST_B2B-PH-K-S(LF)(SN)"/>
+</packageinstances>
+</package3d>
+<package3d name="JST_B5B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:package:45202333/2" type="model">
+<packageinstances>
+<packageinstance name="JST_B5B-PH-SM4-TB(LF)(SN)"/>
+</packageinstances>
+</package3d>
+<package3d name="JST_S3B-PH-SM4-TB" urn="urn:adsk.eagle:package:42788768/2" type="model">
+<packageinstances>
+<packageinstance name="JST_S3B-PH-SM4-TB"/>
+</packageinstances>
+</package3d>
+<package3d name="JST_S4B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:package:42400018/4" type="model">
+<packageinstances>
+<packageinstance name="JST_S4B-PH-K-S(LF)(SN)"/>
+</packageinstances>
+</package3d>
+<package3d name="JST_B6B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:package:45400776/2" type="model">
+<packageinstances>
+<packageinstance name="JST_B6B-PH-K-S(LF)(SN)"/>
+</packageinstances>
+</package3d>
+<package3d name="JST_S2B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:package:42400055/4" type="model">
+<packageinstances>
+<packageinstance name="JST_S2B-PH-K-S(LF)(SN)"/>
+</packageinstances>
+</package3d>
+<package3d name="JST_S2B-PH-SM4-TB" urn="urn:adsk.eagle:package:42348433/2" type="model">
+<packageinstances>
+<packageinstance name="JST_S2B-PH-SM4-TB"/>
+</packageinstances>
+</package3d>
+<package3d name="JST_B4B-PH-SM4-TB" urn="urn:adsk.eagle:package:45202219/2" type="model">
+<packageinstances>
+<packageinstance name="JST_B4B-PH-SM4-TB"/>
+</packageinstances>
+</package3d>
+<package3d name="JST_B6B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:package:45409346/2" type="model">
+<packageinstances>
+<packageinstance name="JST_B6B-PH-SM4-TB(LF)(SN)"/>
+</packageinstances>
+</package3d>
+<package3d name="JST_B3B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:package:44075750/2" type="model">
+<packageinstances>
+<packageinstance name="JST_B3B-PH-K-S(LF)(SN)"/>
+</packageinstances>
+</package3d>
+<package3d name="JST_B4B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:package:43377334/2" type="model">
+<packageinstances>
+<packageinstance name="JST_B4B-PH-K-S(LF)(SN)"/>
+</packageinstances>
+</package3d>
+<package3d name="SM4-CON" urn="urn:adsk.eagle:package:45202382/4" type="model">
+<packageinstances>
+<packageinstance name="JST_B2B-PH-SM4-TB(LF)(SN)"/>
+</packageinstances>
+</package3d>
+<package3d name="JST_B3B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:package:45202251/3" type="model">
+<packageinstances>
+<packageinstance name="JST_B3B-PH-SM4-TB(LF)(SN)"/>
+</packageinstances>
+</package3d>
+<package3d name="JST_S4B-PH-SM4-TB" urn="urn:adsk.eagle:package:42788681/3" type="model">
+<packageinstances>
+<packageinstance name="JST_S4B-PH-SM4-TB"/>
+</packageinstances>
+</package3d>
+<package3d name="JST_S3B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:package:42913827/3" type="model">
+<packageinstances>
+<packageinstance name="JST_S3B-PH-K-S(LF)(SN)"/>
+</packageinstances>
+</package3d>
+<package3d name="JST_S6B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:package:48309378/2" type="model">
+<packageinstances>
+<packageinstance name="JST_S6B-PH-SM4-TB(LF)(SN)"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="S3B-PH-SM4-TB" urn="urn:adsk.eagle:symbol:42913867/1">
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.762" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.762" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.762" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="-2.542559375" y="5.08511875" size="1.27128125" layer="95">&gt;NAME</text>
+<text x="-2.540559375" y="-6.351390625" size="1.27028125" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="2.54" length="middle" direction="pas"/>
+<pin name="2" x="-5.08" y="0" length="middle" direction="pas"/>
+<pin name="3" x="-5.08" y="-2.54" length="middle" direction="pas"/>
+</symbol>
+<symbol name="B2B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:symbol:42913870/1">
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<text x="-2.544359375" y="3.30766875" size="1.78105" layer="95">&gt;NAME</text>
+<text x="-2.544590625" y="-7.633759375" size="1.781209375" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="0" length="middle" direction="pas"/>
+<pin name="2" x="-7.62" y="-2.54" length="middle" direction="pas"/>
+</symbol>
+<symbol name="B6B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:symbol:45400784/1">
+<wire x1="-3.81" y1="6.35" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="6.35" x2="-3.81" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-8.89" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="-2.54" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-3.175" y1="4.7625" x2="-1.5875" y2="5.3975" layer="94"/>
+<rectangle x1="-3.175" y1="2.2225" x2="-1.5875" y2="2.8575" layer="94"/>
+<rectangle x1="-3.175" y1="-0.3175" x2="-1.5875" y2="0.3175" layer="94"/>
+<rectangle x1="-3.175" y1="-2.8575" x2="-1.5875" y2="-2.2225" layer="94"/>
+<rectangle x1="-3.175" y1="-5.3975" x2="-1.5875" y2="-4.7625" layer="94"/>
+<rectangle x1="-3.175" y1="-7.9375" x2="-1.5875" y2="-7.3025" layer="94"/>
+<pin name="1" x="-7.62" y="5.08" length="middle" direction="pas"/>
+<pin name="2" x="-7.62" y="2.54" length="middle" direction="pas"/>
+<pin name="3" x="-7.62" y="0" length="middle" direction="pas"/>
+<pin name="4" x="-7.62" y="-2.54" length="middle" direction="pas"/>
+<pin name="5" x="-7.62" y="-5.08" length="middle" direction="pas"/>
+<pin name="6" x="-7.62" y="-7.62" length="middle" direction="pas"/>
+</symbol>
+<symbol name="S2B-PH-SM4-TB" urn="urn:adsk.eagle:symbol:42913868/2">
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.762" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.762" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<text x="3.80818125" y="2.54546875" size="1.27181875" layer="95">&gt;NAME</text>
+<text x="3.80901875" y="-6.35391875" size="1.27098125" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle" direction="pas"/>
+<pin name="2" x="0" y="-2.54" length="middle" direction="pas"/>
+<pin name="0" x="7.62" y="-10.16" visible="off" length="middle" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="B4B-PH-SM4-TB" urn="urn:adsk.eagle:symbol:45202235/1" locally_modified="yes">
+<wire x1="-5.08" y1="6.35" x2="-3.81" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="6.35" x2="-5.08" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-8.89" x2="-3.81" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-3.81" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-3.175" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-3.175" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-3.175" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-4.445" y1="4.7625" x2="-2.8575" y2="5.3975" layer="94"/>
+<rectangle x1="-4.445" y1="2.2225" x2="-2.8575" y2="2.8575" layer="94"/>
+<rectangle x1="-4.445" y1="-0.3175" x2="-2.8575" y2="0.3175" layer="94"/>
+<rectangle x1="-4.445" y1="-2.8575" x2="-2.8575" y2="-2.2225" layer="94"/>
+<pin name="1" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="4" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+<pin name="SHIELD" x="-10.16" y="-7.62" length="middle" direction="pas"/>
+</symbol>
+<symbol name="B5B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:symbol:45202339/2">
+<wire x1="-5.08" y1="6.35" x2="-3.81" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="6.35" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-11.43" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-11.43" x2="-3.81" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-3.81" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-3.175" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-3.175" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-3.175" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-3.175" y2="-5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-4.445" y1="4.7625" x2="-2.8575" y2="5.3975" layer="94"/>
+<rectangle x1="-4.445" y1="2.2225" x2="-2.8575" y2="2.8575" layer="94"/>
+<rectangle x1="-4.445" y1="-0.3175" x2="-2.8575" y2="0.3175" layer="94"/>
+<rectangle x1="-4.445" y1="-2.8575" x2="-2.8575" y2="-2.2225" layer="94"/>
+<rectangle x1="-4.445" y1="-5.3975" x2="-2.8575" y2="-4.7625" layer="94"/>
+<pin name="1" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="4" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+<pin name="SHIELD" x="-10.16" y="-10.16" length="middle" direction="pas"/>
+<pin name="5" x="-10.16" y="-5.08" length="middle" direction="pas"/>
+</symbol>
+<symbol name="S2B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:symbol:42913869/1">
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+</symbol>
+<symbol name="S4B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:symbol:42913866/1">
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="-2.795040625" y="5.84416875" size="1.778659375" layer="95">&gt;NAME</text>
+<text x="-2.544340625" y="-10.1773" size="1.781040625" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="2.54" length="middle" direction="pas"/>
+<pin name="2" x="-7.62" y="0" length="middle" direction="pas"/>
+<pin name="3" x="-7.62" y="-2.54" length="middle" direction="pas"/>
+<pin name="4" x="-7.62" y="-5.08" length="middle" direction="pas"/>
+</symbol>
+<symbol name="B3B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:symbol:44075756/1">
+<wire x1="-5.08" y1="2.54" x2="-3.175" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-3.175" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-3.81" x2="-3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<rectangle x1="-4.445" y1="2.2225" x2="-2.8575" y2="2.8575" layer="94"/>
+<rectangle x1="-4.445" y1="-0.3175" x2="-2.8575" y2="0.3175" layer="94"/>
+<rectangle x1="-4.445" y1="-2.8575" x2="-2.8575" y2="-2.2225" layer="94"/>
+<text x="-5.58" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+</symbol>
+<symbol name="B4B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:symbol:44075757/1">
+<wire x1="-5.08" y1="5.08" x2="-3.175" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-3.175" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-3.175" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-3.81" x2="-3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="6.35" x2="-3.81" y2="7.62" width="0.254" layer="94"/>
+<rectangle x1="-4.445" y1="4.7625" x2="-2.8575" y2="5.3975" layer="94"/>
+<rectangle x1="-4.445" y1="2.2225" x2="-2.8575" y2="2.8575" layer="94"/>
+<rectangle x1="-4.445" y1="-0.3175" x2="-2.8575" y2="0.3175" layer="94"/>
+<rectangle x1="-4.445" y1="-2.8575" x2="-2.8575" y2="-2.2225" layer="94"/>
+<text x="-5.58" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="4" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+</symbol>
+<symbol name="B6B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:symbol:45409389/2">
+<wire x1="5.08" y1="7.62" x2="-3.81" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="7.62" x2="-3.81" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-2.54" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-3.175" y1="4.7625" x2="-1.5875" y2="5.3975" layer="94"/>
+<rectangle x1="-3.175" y1="2.2225" x2="-1.5875" y2="2.8575" layer="94"/>
+<rectangle x1="-3.175" y1="-0.3175" x2="-1.5875" y2="0.3175" layer="94"/>
+<rectangle x1="-3.175" y1="-2.8575" x2="-1.5875" y2="-2.2225" layer="94"/>
+<rectangle x1="-3.175" y1="-5.3975" x2="-1.5875" y2="-4.7625" layer="94"/>
+<rectangle x1="-3.175" y1="-7.9375" x2="-1.5875" y2="-7.3025" layer="94"/>
+<rectangle x1="-3.175" y1="-13.0175" x2="-1.5875" y2="-12.3825" layer="94"/>
+<pin name="1" x="-7.62" y="5.08" length="middle" direction="pas"/>
+<pin name="2" x="-7.62" y="2.54" length="middle" direction="pas"/>
+<pin name="3" x="-7.62" y="0" length="middle" direction="pas"/>
+<pin name="4" x="-7.62" y="-2.54" length="middle" direction="pas"/>
+<pin name="5" x="-7.62" y="-5.08" length="middle" direction="pas"/>
+<pin name="6" x="-7.62" y="-7.62" length="middle" direction="pas"/>
+<pin name="GND" x="-7.62" y="-12.7" length="middle" direction="pas"/>
+</symbol>
+<symbol name="B2B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:symbol:45202387/1">
+<wire x1="-5.08" y1="3.81" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-6.35" x2="-3.81" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-3.175" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-3.175" y2="-5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-4.445" y1="2.2225" x2="-2.8575" y2="2.8575" layer="94"/>
+<rectangle x1="-4.445" y1="-0.3175" x2="-2.8575" y2="0.3175" layer="94"/>
+<rectangle x1="-4.445" y1="-5.3975" x2="-2.8575" y2="-4.7625" layer="94"/>
+<pin name="1" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="GND" x="-10.16" y="-5.08" length="middle" direction="pas"/>
+</symbol>
+<symbol name="S3B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:symbol:42913864/1">
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.082559375" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.080559375" y="-7.621390625" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+</symbol>
+<symbol name="B3B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:symbol:45202340/3">
+<wire x1="-5.08" y1="6.35" x2="-3.81" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-6.35" x2="-3.81" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-3.81" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-3.175" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-3.175" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="6.35" x2="-5.08" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-3.175" y2="-5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-4.445" y1="4.7625" x2="-2.8575" y2="5.3975" layer="94"/>
+<rectangle x1="-4.445" y1="2.2225" x2="-2.8575" y2="2.8575" layer="94"/>
+<rectangle x1="-4.445" y1="-0.3175" x2="-2.8575" y2="0.3175" layer="94"/>
+<rectangle x1="-4.445" y1="-5.3975" x2="-2.8575" y2="-4.7625" layer="94"/>
+<pin name="1" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="GND" x="-10.16" y="-5.08" length="middle" direction="pas"/>
+</symbol>
+<symbol name="S4B-PH-SM4-TB" urn="urn:adsk.eagle:symbol:42913865/2">
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.762" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.762" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="5.08" y2="-7.62" width="0.762" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.762" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="-0.002759375" y="0.006890625" size="1.27138125" layer="95">&gt;NAME</text>
+<text x="-0.00106875" y="-13.97321875" size="1.270540625" layer="96">&gt;VALUE</text>
+<pin name="2" x="-2.54" y="-5.08" length="middle" direction="pas"/>
+<pin name="1" x="-2.54" y="-2.54" length="middle" direction="pas"/>
+<pin name="3" x="-2.54" y="-7.62" length="middle" direction="pas"/>
+<pin name="4" x="-2.54" y="-10.16" length="middle" direction="pas"/>
+<pin name="5" x="5.08" y="-17.78" visible="off" length="middle" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="S6B-PH-SM4-TB(LF)(SN)">
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="10.16" width="0.1524" layer="94"/>
+<text x="-7.1135" y="10.6715" size="1.77858125" layer="95">&gt;NAME</text>
+<text x="-7.6227" y="-15.2481" size="1.778940625" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="7.62" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="5.08" length="short" direction="pas"/>
+<pin name="3" x="-10.16" y="2.54" length="short" direction="pas"/>
+<pin name="4" x="-10.16" y="0" length="short" direction="pas"/>
+<pin name="5" x="-10.16" y="-2.54" length="short" direction="pas"/>
+<pin name="6" x="-10.16" y="-5.08" length="short" direction="pas"/>
+<pin name="SHIELD" x="-10.16" y="-10.16" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B5B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:component:45202341/2" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/B5B-PH-SM4-TB%28LF%29%28SN%29/JST%20Sales/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B5B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_B5B-PH-SM4-TB(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="SHIELD" pad="SH1 SH2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45202333/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/B5B-PH-SM4-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Connector Header Surface Mount 5 position 0.079 (2.00mm) "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="B5B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PACKAGE" value="NON STANDARD-5 JST"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/B5B-PH-SM4-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S3B-PH-SM4-TB" urn="urn:adsk.eagle:component:42913874/1" prefix="P">
+<description>CONN HEADER PH SIDE 3POS 2MM SMD &lt;a href="https://pricing.snapeda.com/parts/S3B-PH-SM4-TB/JST%20Sales/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="S3B-PH-SM4-TB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_S3B-PH-SM4-TB">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42788768/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/S3B-PH-SM4-TB/JST+Sales+America+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Connector Header Surface Mount, Right Angle 3 position 0.079 (2.00mm) "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="S3B-PH-SM4-TB"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=473685&amp;manufacturer=JST Sales&amp;part_name=S3B-PH-SM4-TB&amp;search_term=s3b-ph-sm4"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/S3B-PH-SM4-TB/JST+Sales+America+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B2B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:component:42913877/1" prefix="J">
+<description>PH Series 2 Position 2 mm Pitch Through Hole Top Entry Shrouded Header &lt;a href="https://pricing.snapeda.com/parts/B2B-PH-K-S%28LF%29%28SN%29/JST%20Sales/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B2B-PH-K-S(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_B2B-PH-K-S(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42423129/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/B2B-PH-K-S(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Connector Header Through Hole 2 position 0.079 (2.00mm) "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="B2B-PH-K-S(LF)(SN)"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/B2B-PH-K-S(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S4B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:component:42913873/1" prefix="J">
+<description>PH Series 4 Position 2 mm Pitch Through Hole Side Entry Shrouded Header &lt;a href="https://pricing.snapeda.com/parts/S4B-PH-K-S%28LF%29%28SN%29/JST%20Sales/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="S4B-PH-K-S(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_S4B-PH-K-S(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42400018/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/S4B-PH-K-S(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Connector Header Through Hole, Right Angle 4 position 0.079 (2.00mm) "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="S4B-PH-K-S(LF)(SN)"/>
+<attribute name="PACKAGE" value="NON STANDARD-4 J.S.T."/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/S4B-PH-K-S(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B6B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:component:45400785/1" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/B6B-PH-K-S%28LF%29%28SN%29/JST%20Sales/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B6B-PH-K-S(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_B6B-PH-K-S(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45400776/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/B6B-PH-K-S(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Connector Header Through Hole 6 position 0.079 (2.00mm) "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="B6B-PH-K-S(LF)(SN)"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/B6B-PH-K-S(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S2B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:component:42913876/1" prefix="J">
+<description>PH Series 2 Position 2.0 mm Through Hole Side Entry Shrouded Header &lt;a href="https://pricing.snapeda.com/parts/S2B-PH-K-S%28LF%29%28SN%29/JST%20Sales%20America%20Inc./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="S2B-PH-K-S(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_S2B-PH-K-S(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42400055/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/S2B-PH-K-S(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Connector Header Through Hole, Right Angle 2 position "/>
+<attribute name="MF" value="JST Sales America Inc."/>
+<attribute name="MP" value="S2B-PH-K-S(LF)(SN)"/>
+<attribute name="PACKAGE" value="NON STANDARD-2 J.S.T."/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/S2B-PH-K-S(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S2B-PH-SM4-TB" urn="urn:adsk.eagle:component:42913875/2" prefix="P">
+<description>CONN HEADER PH SIDE 2POS 2MM SMD &lt;a href="https://pricing.snapeda.com/parts/S2B-PH-SM4-TB/JST%20Sales/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="S2B-PH-SM4-TB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_S2B-PH-SM4-TB">
+<connects>
+<connect gate="G$1" pin="0" pad="P1 P2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42348433/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/S2B-PH-SM4-TB/JST+Sales+America+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Connector Header Surface Mount, Right Angle 2 position 0.079 (2.00mm) "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="S2B-PH-SM4-TB"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=225866&amp;manufacturer=JST Sales&amp;part_name=S2B-PH-SM4-TB&amp;search_term=s2b-ph"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/S2B-PH-SM4-TB/JST+Sales+America+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B3B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:component:44075758/2" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/B3B-PH-K-S%28LF%29%28SN%29/JST%20Sales/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B3B-PH-K-S(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_B3B-PH-K-S(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44075750/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/B3B-PH-K-S(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Connector Header Through Hole 3 position 0.079 (2.00mm) "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="B3B-PH-K-S(LF)(SN)"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/B3B-PH-K-S(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B6B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:component:45409390/2" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/B6B-PH-SM4-TB%28LF%29%28SN%29/JST%20Sales%20America%20Inc./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B6B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_B6B-PH-SM4-TB(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="GND" pad="SH1 SH2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45409346/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/B6B-PH-SM4-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Connector Header Surface Mount 6 position 0.079 (2.00mm) "/>
+<attribute name="MF" value="JST Sales America Inc."/>
+<attribute name="MP" value="B6B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PACKAGE" value="NON STANDARD-6 JST"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/B6B-PH-SM4-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B2B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:component:45202389/3">
+<description>Japan solderless terminals. 2mm pitch, 2 pins.  &lt;a href="https://pricing.snapeda.com/parts/B2B-PH-SM4-TB%28LF%29%28SN%29/JST%20Sales/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B2B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_B2B-PH-SM4-TB(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="GND" pad="3 4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45202382/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/B2B-PH-SM4-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Connector Header Surface Mount 2 position 0.079 (2.00mm) "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="B2B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PACKAGE" value="NON STANDARD-2 JST"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/B2B-PH-SM4-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S4B-PH-SM4-TB" urn="urn:adsk.eagle:component:42913872/2" prefix="P">
+<description>CONN HEADER PH SIDE 4POS 2MM SMD </description>
+<gates>
+<gate name="G$1" symbol="S4B-PH-SM4-TB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_S4B-PH-SM4-TB">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="P1 P2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42788681/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/S4B-PH-SM4-TB/JST+Sales+America+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Connector Header Surface Mount, Right Angle 4 position 0.079 (2.00mm) "/>
+<attribute name="DIGIKEY_PART_NUMBER" value=""/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="S4B-PH-SM4-TB"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=473686&amp;manufacturer=JST Sales&amp;part_name=S4B-PH-SM4-TB&amp;search_term=None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/S4B-PH-SM4-TB/JST+Sales+America+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B4B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:component:44075759/1" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/B4B-PH-K-S%28LF%29%28SN%29/JST/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B4B-PH-K-S(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_B4B-PH-K-S(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43377334/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/B4B-PH-K-S(LF)(SN)/JST/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" 2.0 mm pitch/Disconnectable Crimp style connectors "/>
+<attribute name="MF" value="JST"/>
+<attribute name="MP" value="B4B-PH-K-S(LF)(SN)"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/B4B-PH-K-S(LF)(SN)/JST/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B4B-PH-SM4-TB" urn="urn:adsk.eagle:component:45202236/1" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/B4B-PH-SM4-TB/JST%20Sales/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B4B-PH-SM4-TB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_B4B-PH-SM4-TB">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="SHIELD" pad="SH1 SH2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45202219/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/B4B-PH-SM4-TB/JST+Sales+America+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Connector Header Surface Mount 4 position 0.079 (2.00mm) "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="B4B-PH-SM4-TB"/>
+<attribute name="PACKAGE" value="NON STANDARD-4 JST"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/B4B-PH-SM4-TB/JST+Sales+America+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B3B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:component:45202342/4" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/B3B-PH-SM4-TB%28LF%29%28SN%29/JST%20Sales/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B3B-PH-SM4-TB(LF)(SN)" x="-5.08" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="JST_B3B-PH-SM4-TB(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="GND" pad="S1 S2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45202251/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/B3B-PH-SM4-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Connector Header Surface Mount 3 position 0.079 (2.00mm) "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="B3B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PACKAGE" value="NON STANDARD-3 JST"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=53135&amp;manufacturer=JST Sales&amp;part_name=B3B-PH-SM4-TB(LF)(SN)&amp;search_term=b3b-ph-sm4-tb"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/B3B-PH-SM4-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S3B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:component:42913871/3" prefix="J">
+<description>Connector Header Through Hole, Right Angle 3 position 0.079" (2.00mm) &lt;a href="https://pricing.snapeda.com/parts/S3B-PH-K-S%28LF%29%28SN%29/JST%20Sales/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="S3B-PH-K-S(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_S3B-PH-K-S(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42913827/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/S3B-PH-K-S(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Connector Header Through Hole, Right Angle 3 position 0.079 (2.00mm) "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="S3B-PH-K-S(LF)(SN)"/>
+<attribute name="PACKAGE" value="NON STANDARD-3 J.S.T."/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/S3B-PH-K-S(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S6B-PH-SM4-TB(LF)(SN)" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/S6B-PH-SM4-TB%28LF%29%28SN%29/JST%20Sales/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="S6B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_S6B-PH-SM4-TB(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:48309378/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/S6B-PH-SM4-TB(LF)(SN)/JST/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value="                                                      Connector Header Surface Mount, Right Angle 6 position 0.079 (2.00mm)                                              "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="S6B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/S6B-PH-SM4-TB(LF)(SN)/JST/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

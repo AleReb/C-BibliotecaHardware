@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="MICROSD" urn="urn:adsk.eagle:footprint:48307956/2">
+<pad name="CD" x="-10.16" y="5.08" drill="1.016" diameter="1.778"/>
+<pad name="DAT1" x="-10.16" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="DAT0" x="-10.16" y="0" drill="1.016" diameter="1.778"/>
+<pad name="VSS1" x="-10.16" y="-2.54" drill="1.016" diameter="1.778"/>
+<pad name="CLK" x="-10.16" y="-5.08" drill="1.016" diameter="1.778"/>
+<pad name="VDD" x="10.16" y="-5.08" drill="1.016" diameter="1.778"/>
+<pad name="VSS2" x="10.16" y="-2.54" drill="1.016" diameter="1.778"/>
+<pad name="DIN" x="10.16" y="0" drill="1.016" diameter="1.778"/>
+<pad name="DAT3" x="10.16" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="DAT2" x="10.16" y="5.08" drill="1.016" diameter="1.778"/>
+<wire x1="-11.268" y1="8.728" x2="11.268" y2="8.728" width="0.127" layer="21"/>
+<wire x1="11.268" y1="8.728" x2="11.268" y2="-9.998" width="0.127" layer="21"/>
+<wire x1="11.268" y1="-9.998" x2="-11.268" y2="-9.998" width="0.127" layer="21"/>
+<wire x1="-11.268" y1="-9.998" x2="-11.268" y2="8.728" width="0.127" layer="21"/>
+<text x="-11.268" y="8.939665625" size="1.27" layer="25">&gt;NAME</text>
+<text x="-11.268" y="-11.479665625" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="CHRG" urn="urn:adsk.eagle:footprint:48968929/1">
+<wire x1="-17.78" y1="8.89" x2="19.05" y2="8.89" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-8.89" x2="-17.78" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-8.89" x2="-17.78" y2="8.89" width="0.127" layer="21"/>
+<wire x1="12.7" y1="4.445" x2="19.05" y2="4.445" width="0.127" layer="21"/>
+<wire x1="19.05" y1="4.445" x2="20.32" y2="4.445" width="0.127" layer="21"/>
+<wire x1="20.32" y1="4.445" x2="20.32" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="20.32" y1="-4.445" x2="19.05" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-4.445" x2="12.7" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-4.445" x2="12.7" y2="4.445" width="0.127" layer="21"/>
+<wire x1="19.05" y1="8.89" x2="19.05" y2="4.445" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-8.89" x2="19.05" y2="-4.445" width="0.127" layer="21"/>
+<hole x="-15.875" y="6.985" drill="2.286"/>
+<hole x="-15.875" y="-6.985" drill="2.286"/>
+<pad name="GND1" x="17.78" y="7.62" drill="1.524" shape="square"/>
+<pad name="VIN" x="17.78" y="-7.62" drill="1.524" shape="square"/>
+<pad name="GND2" x="-15.621" y="-2.032" drill="1.524" diameter="3.175" shape="square"/>
+<pad name="BATT" x="-15.621" y="2.032" drill="1.524" diameter="3.175" shape="square"/>
+</package>
+<package name="AP2112" urn="urn:adsk.eagle:footprint:48309238/2">
+<pad name="P1" x="-6.35" y="1.27" drill="1.016"/>
+<pad name="P2" x="-6.35" y="-1.27" drill="1.016"/>
+<pad name="P3" x="6.35" y="-1.27" drill="1.016"/>
+<pad name="P4" x="6.35" y="1.27" drill="1.016"/>
+<wire x1="-7.458" y1="2.378" x2="7.458" y2="2.378" width="0.127" layer="21"/>
+<wire x1="7.458" y1="2.378" x2="7.458" y2="-2.378" width="0.127" layer="21"/>
+<wire x1="7.458" y1="-2.378" x2="-7.458" y2="-2.378" width="0.127" layer="21"/>
+<wire x1="-7.458" y1="-2.378" x2="-7.458" y2="2.378" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="0" x2="3.81" y2="0" width="0.127" layer="21"/>
+<wire x1="3.81" y1="0" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="3.81" y2="0" width="0.127" layer="21"/>
+<text x="-7.458" y="2.589665625" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.458" y="-3.859665625" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="MICROSD" urn="urn:adsk.eagle:package:48307957/3" type="model">
+<packageinstances>
+<packageinstance name="MICROSD"/>
+</packageinstances>
+</package3d>
+<package3d name="AP2112" urn="urn:adsk.eagle:package:48309241/3" type="model">
+<packageinstances>
+<packageinstance name="AP2112"/>
+</packageinstances>
+</package3d>
+<package3d name="CHRG" urn="urn:adsk.eagle:package:48968931/2" type="model">
+<packageinstances>
+<packageinstance name="CHRG"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MICROSD" urn="urn:adsk.eagle:symbol:48309240/1">
+<pin name="VDD" x="-10.16" y="10.16" length="middle"/>
+<pin name="DIN" x="-10.16" y="7.62" length="middle"/>
+<pin name="DAT0" x="-10.16" y="5.08" length="middle"/>
+<pin name="DAT1" x="-10.16" y="2.54" length="middle"/>
+<pin name="DAT2" x="-10.16" y="0" length="middle"/>
+<pin name="DAT3" x="-10.16" y="-2.54" length="middle"/>
+<pin name="CLK" x="-10.16" y="-5.08" length="middle"/>
+<pin name="CD" x="-10.16" y="-7.62" length="middle"/>
+<pin name="VSS" x="-10.16" y="-10.16" length="middle"/>
+<wire x1="-5.08" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<text x="-5.08" y="12.954" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="AP2112" urn="urn:adsk.eagle:symbol:48309239/1">
+<pin name="VIN" x="-12.7" y="0" length="middle"/>
+<pin name="VOUT" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="CHRG" urn="urn:adsk.eagle:symbol:48968930/1">
+<pin name="VIN" x="-12.7" y="2.54" visible="off" length="middle"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="middle" rot="R90"/>
+<pin name="BATT" x="12.7" y="2.54" visible="off" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MICROSD" urn="urn:adsk.eagle:component:48309243/1">
+<gates>
+<gate name="G$1" symbol="MICROSD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MICROSD">
+<connects>
+<connect gate="G$1" pin="CD" pad="CD"/>
+<connect gate="G$1" pin="CLK" pad="CLK"/>
+<connect gate="G$1" pin="DAT0" pad="DAT0"/>
+<connect gate="G$1" pin="DAT1" pad="DAT1"/>
+<connect gate="G$1" pin="DAT2" pad="DAT2"/>
+<connect gate="G$1" pin="DAT3" pad="DAT3"/>
+<connect gate="G$1" pin="DIN" pad="DIN"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+<connect gate="G$1" pin="VSS" pad="VSS1 VSS2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:48307957/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CHARGER" urn="urn:adsk.eagle:component:48968932/2">
+<gates>
+<gate name="G$1" symbol="CHRG" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="CHRG">
+<connects>
+<connect gate="G$1" pin="BATT" pad="BATT"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:48968931/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP2112" urn="urn:adsk.eagle:component:48309242/2">
+<gates>
+<gate name="G$1" symbol="AP2112" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="AP2112">
+<connects>
+<connect gate="G$1" pin="GND" pad="P2 P3"/>
+<connect gate="G$1" pin="VIN" pad="P1"/>
+<connect gate="G$1" pin="VOUT" pad="P4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:48309241/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
