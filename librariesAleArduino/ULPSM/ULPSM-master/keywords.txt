@@ -1,0 +1,56 @@
+
+
+#######################################
+# Syntax Coloring Map For ULP
+#######################################
+
+#######################################
+# Library (KEYWORD1)
+#######################################
+
+ULP	KEYWORD1	ULP
+EtOH	KEYWORD1	ULP
+H2S	KEYWORD1	ULP
+CO	KEYWORD1	ULP
+IAQ	KEYWORD1	ULP
+SO2	KEYWORD1	ULP
+NO2	KEYWORD1	ULP
+RESP	KEYWORD1	ULP
+O3	KEYWORD1	ULP
+SPEC	KEYWORD1	ULP
+
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getTemp	KEYWORD2
+OCzero	KEYWORD2
+getConc	KEYWORD2
+setVref	KEYWORD2
+zero	KEYWORD2
+getVgas	KEYWORD2
+setXSpan	KEYWORD2
+setTSpan	KEYWORD2
+convertT	KEYWORD2
+convertX	KEYWORD2
+getIgas	KEYWORD2
+convertX	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+_Sf	KEYWORD3
+_Vcc	KEYWORD3
+_Gain	KEYWORD3
+_Vsup	KEYWORD3
+_Vref_set	KEYWORD3
+_Vref	KEYWORD3
+_InA	KEYWORD3
+_Vgas	KEYWORD3
+_T	KEYWORD3
+_X	KEYWORD3
+_Izero	KEYWORD3
+_Tzero	KEYWORD3

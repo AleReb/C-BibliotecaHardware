@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="MKRWAN1310" urn="urn:adsk.eagle:footprint:36570021/1">
+<wire x1="67.74" y1="0" x2="19.5" y2="0" width="0.127" layer="21"/>
+<wire x1="19.5" y1="0" x2="11.5" y2="0" width="0.127" layer="21"/>
+<wire x1="11.5" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="8.5" width="0.127" layer="21"/>
+<wire x1="0" y1="8.5" x2="0" y2="16.5" width="0.127" layer="21"/>
+<wire x1="0" y1="16.5" x2="0" y2="25" width="0.127" layer="21"/>
+<wire x1="0" y1="25" x2="67.74" y2="25" width="0.127" layer="21"/>
+<wire x1="67.74" y1="25" x2="67.74" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="8.5" x2="6" y2="8.5" width="0.127" layer="21"/>
+<wire x1="6" y1="8.5" x2="6" y2="16.5" width="0.127" layer="21"/>
+<wire x1="6" y1="16.5" x2="0" y2="16.5" width="0.127" layer="21"/>
+<wire x1="11.5" y1="0" x2="11.5" y2="7" width="0.127" layer="21"/>
+<wire x1="11.5" y1="7" x2="19.5" y2="7" width="0.127" layer="21"/>
+<wire x1="19.5" y1="7" x2="19.5" y2="0" width="0.127" layer="21"/>
+<pad name="AREF" x="21.6" y="2.2" drill="1" shape="long" rot="R90"/>
+<pad name="DAC_0" x="24.14" y="2.2" drill="1" shape="long" rot="R90"/>
+<pad name="A1" x="26.82" y="2.2" drill="1" shape="long" rot="R90"/>
+<pad name="A2" x="29.36" y="2.2" drill="1" shape="long" rot="R90"/>
+<pad name="A3" x="31.9" y="2.2" drill="1" shape="long" rot="R90"/>
+<pad name="A4" x="34.44" y="2.2" drill="1" shape="long" rot="R90"/>
+<pad name="A5" x="36.98" y="2.2" drill="1" shape="long" rot="R90"/>
+<pad name="A6" x="39.52" y="2.2" drill="1" shape="long" rot="R90"/>
+<pad name="0" x="42.06" y="2.2" drill="1" shape="long" rot="R90"/>
+<pad name="1" x="44.6" y="2.2" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="47.14" y="2.2" drill="1" shape="long" rot="R90"/>
+<pad name="3" x="49.68" y="2.2" drill="1" shape="long" rot="R90"/>
+<pad name="4" x="52.22" y="2.2" drill="1" shape="long" rot="R90"/>
+<pad name="5" x="54.76" y="2.2" drill="1" shape="long" rot="R90"/>
+<pad name="5V" x="21.6" y="22.8" drill="1" shape="long" rot="R90"/>
+<pad name="VIN" x="24.14" y="22.8" drill="1" shape="long" rot="R90"/>
+<pad name="VCC" x="26.68" y="22.8" drill="1" shape="long" rot="R90"/>
+<pad name="GND" x="29.22" y="22.8" drill="1" shape="long" rot="R90"/>
+<pad name="RST" x="31.76" y="22.8" drill="1" shape="long" rot="R90"/>
+<pad name="14TX" x="34.3" y="22.8" drill="1" shape="long" rot="R90"/>
+<pad name="13RX" x="36.84" y="22.8" drill="1" shape="long" rot="R90"/>
+<pad name="12SCL" x="39.38" y="22.8" drill="1" shape="long" rot="R90"/>
+<pad name="11SDA" x="41.92" y="22.8" drill="1" shape="long" rot="R90"/>
+<pad name="10MISO" x="44.46" y="22.8" drill="1" shape="long" rot="R90"/>
+<pad name="9SCK" x="47" y="22.8" drill="1" shape="long" rot="R90"/>
+<pad name="8MOSI" x="49.54" y="22.8" drill="1" shape="long" rot="R90"/>
+<pad name="7" x="52.08" y="22.8" drill="1" shape="long" rot="R90"/>
+<pad name="6" x="54.62" y="22.8" drill="1" shape="long" rot="R90"/>
+<text x="18" y="11.5" size="4" layer="21">MKRWAN1310</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="MKRWAN1310" urn="urn:adsk.eagle:package:36570020/2" type="model">
+<packageinstances>
+<packageinstance name="MKRWAN1310"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MKRWAN1310">
+<pin name="A1" x="-2.54" y="25.4" length="middle"/>
+<pin name="A2" x="-2.54" y="22.86" length="middle"/>
+<pin name="A3" x="-2.54" y="20.32" length="middle"/>
+<pin name="A4" x="-2.54" y="17.78" length="middle"/>
+<pin name="A5" x="-2.54" y="15.24" length="middle"/>
+<pin name="A6" x="-2.54" y="12.7" length="middle"/>
+<pin name="0" x="-2.54" y="10.16" length="middle"/>
+<pin name="1" x="-2.54" y="7.62" length="middle"/>
+<pin name="2" x="-2.54" y="5.08" length="middle"/>
+<pin name="3" x="-2.54" y="2.54" length="middle"/>
+<pin name="4" x="-2.54" y="0" length="middle"/>
+<pin name="DAC_0" x="-2.54" y="27.94" length="middle"/>
+<pin name="AREF" x="-2.54" y="30.48" length="middle"/>
+<pin name="5" x="-2.54" y="-2.54" length="middle"/>
+<pin name="RX" x="25.4" y="15.24" length="middle" rot="R180"/>
+<pin name="5V" x="25.4" y="30.48" length="middle" rot="R180"/>
+<pin name="6" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="7" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="MOSI" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="SCK" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="MISO" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="SDA" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="SCL" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="TX" x="25.4" y="17.78" length="middle" rot="R180"/>
+<pin name="RST" x="25.4" y="20.32" length="middle" rot="R180"/>
+<pin name="GND" x="25.4" y="22.86" length="middle" rot="R180"/>
+<pin name="VCC" x="25.4" y="25.4" length="middle" rot="R180"/>
+<pin name="VIN" x="25.4" y="27.94" length="middle" rot="R180"/>
+<wire x1="2.54" y1="33.02" x2="20.32" y2="33.02" width="0.254" layer="94"/>
+<wire x1="20.32" y1="33.02" x2="20.32" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="33.02" width="0.254" layer="94"/>
+<text x="10.16" y="5.08" size="1.524" layer="94" rot="R90">MKRWAN1310</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MKRWAN1310">
+<gates>
+<gate name="G$1" symbol="MKRWAN1310" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MKRWAN1310">
+<connects>
+<connect gate="G$1" pin="0" pad="0"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="DAC_0" pad="DAC_0"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MISO" pad="10MISO"/>
+<connect gate="G$1" pin="MOSI" pad="8MOSI"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="13RX"/>
+<connect gate="G$1" pin="SCK" pad="9SCK"/>
+<connect gate="G$1" pin="SCL" pad="12SCL"/>
+<connect gate="G$1" pin="SDA" pad="11SDA"/>
+<connect gate="G$1" pin="TX" pad="14TX"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36570020/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

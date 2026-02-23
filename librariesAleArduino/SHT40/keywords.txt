@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map For SHT40
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SHT40	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+readTemperatureC	KEYWORD2
+readHumidityRH	KEYWORD2
+measure	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
