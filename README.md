@@ -15,7 +15,7 @@ El repositorio se organiza de la siguiente manera:
 ## 👨‍💻 Autores y Recopilación
 
 - **Autores:** Investigadores y desarrolladores del Centro C+ UDD.
-- **Recopilador:** Alejandro Rebolledo (arebolledo@udd.cl / edo@udd.cl)
+- **Recopilador:** Alejandro Rebolledo (arebolledo@udd.cl / arebolledo@udd.cl)
 
 ## 📄 Licencia
 
